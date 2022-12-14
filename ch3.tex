@@ -1,0 +1,38 @@
+\textbf{Chapter 3: Decay Rates \& Cross Sections}
+
+\textbf{Fermi's Golden Rule:} $\Gamma_{fi} = 2\pi |T_{fi}|^2 \rho(E_i)$
+
+$\Gamma_{fi}$ = number of transitions per unit time from i to f
+
+Lifetime: $\tau = \frac{\hbar}{\Gamma}$
+
+$T_{fi}$ = Transition Matrix Element, H below is the perturbing Hamiltonian
+
+$T_{fi} = \bra{f}H\ket{i} + \sum_{j \neq i} \frac{\bra{f}H\ket{j}\bra{j}H\ket{i}}{E_i - E_j}$
+
+$\rho(E_i)$ = density of final states (number of states per unit energy)
+
+$\rho(E_i) = \left|\frac{dn}{dE}\right|_{E_1} = \int \frac{dn}{dE} \delta(E_i - E)dE$
+
+Lor. Inv. $T$: $M$, $M_{fi}^{ab} = (2E_a2E_b2E_c2E_d)^{\frac{1}{2}}T_{fi}^{ab}$
+
+If we have an $a \to 1 + 2$ decay,
+$\Gamma_{fi} = \frac{p^*}{32\pi^2m_a^2} \int |M_{fi}|^2 d\Omega$ and
+
+$p^* = \frac{1}{2m_a} \sqrt{\left[m_a^2 - (m_1 + m_2)^2\right]\left[m_a^2 - (m_1 - m_2)^2\right]}$
+
+\textbf{Cross Sections}
+
+For $1+2 \to 3+4$:
+
+$\sigma = \frac{1}{64\pi^2 s} \frac{p_f^*}{p_i^*} \int |M_{fi}|^2 d\Omega^* \text{ (CoM)}$
+
+$\frac{d\sigma}{dt} = \frac{1}{64\pi^2 |\vec{p}_i^*|^2} |M_{fi}|^2 \text{ (all frames)}$
+
+$\frac{d\sigma}{d\Omega} = \frac{1}{64\pi^2} \left[\frac{E_3}{ME_1}\right]^2|M_{fi}|^2 \text{ (lab, negl m of scattered particle)}$
+
+where $|\vec{p}_i^*|^2 = \frac{1}{4s}\left[s - (m_1 + m_2)^2\right]\left[s - (m_1 - m_2)^2\right]$
+
+For elastic $e^- p \to e^- p$ scattering:
+$\frac{d\sigma}{d\Omega} = \frac{1}{64\pi^2} \left(\frac{E_3}{m_p E_1}\right)^2 |M_{fi}|^2$
+($E_3 = E_3(\theta)$)

@@ -1,0 +1,119 @@
+\textbf{Chapter 4: The Dirac Equation}
+
+\textbf{Relativistic QM}
+
+\begin{multicols}{2}
+    K-G: $(\d^\mu\d_\mu + m^2)\psi = 0$
+
+    Dirac: $(i\gamma^\mu \d_\mu - m)\psi = 0$
+
+    \begin{align*}
+        \gamma^0 = \beta &= \begin{pmatrix}
+            I & 0 \\
+            0 & -I \\
+        \end{pmatrix} \\
+        \gamma^i = \beta\alpha_i &= \begin{pmatrix}
+            0 & \sigma_k \\
+            -\sigma_k & 0 \\
+        \end{pmatrix} \\
+    \end{align*}
+    $\gamma$ property: $\gamma^\mu\gamma^\nu + \gamma^\nu\gamma^\mu = 2g^{\mu\nu}$
+
+
+    Adjoints:
+    \begin{align*}
+        \bar{\psi} &= \psi^\dagger \gamma^0 \\
+        &= (\psi_0^*, \psi_1^*, -\psi_2^*, -\psi_3^*) \\
+    \end{align*}
+    Dirac current:
+
+    $j^\mu = \psi^\dagger\gamma^0\gamma^\mu\psi = \bar{\psi}\gamma^\mu\psi$
+
+\end{multicols}
+\begin{multicols}{2}
+    Positive $E$ solutions:
+    \begin{align*}
+        u_1(p) &= \sqrt{E+m}\begin{pmatrix}
+            1 \\
+            0 \\
+            \frac{p_z}{E+m}\\
+            \frac{p_x + ip_y}{E+m} \\
+        \end{pmatrix}\\
+        u_2(p) &= \sqrt{E+m}\begin{pmatrix}
+            0 \\
+            1 \\
+            \frac{p_x - ip_y}{E+m} \\
+            \frac{-p_z}{E+m}\\
+        \end{pmatrix}\\
+    \end{align*}
+    
+    Negative $E$: antiparticles
+    \begin{align*}
+        v_1(p) &= \sqrt{E+m}\begin{pmatrix}
+            \frac{p_x - ip_y}{E+m} \\
+            \frac{-p_z}{E+m}\\
+            0 \\
+            1 \\
+        \end{pmatrix}\\
+        v_2(p) &= \sqrt{E+m}\begin{pmatrix}
+            \frac{p_z}{E+m}\\
+            \frac{p_x + ip_y}{E+m} \\
+            1 \\
+            0 \\
+        \end{pmatrix}\\
+    \end{align*}
+\end{multicols}
+\textbf{Helicity}
+\begin{multicols}{2}
+    \begin{align*}
+        h &= \frac{\mathbf{S} \cdot \mathbf{p}}{p} = \begin{pmatrix}
+            \sigma \cdot \hat{p} & 0 \\
+            0 & \sigma \cdot \hat{p} \\
+        \end{pmatrix}\\
+        s &= \sin(\theta/2), c=\cos(\theta/2)\\
+        u_\uparrow &= \sqrt{E+m} \begin{pmatrix}
+            c \\
+            se^{i\phi} \\
+            \frac{p}{E+m}c \\
+            \frac{p}{E+m}se^{i\phi} \\
+        \end{pmatrix}\\
+        u_\downarrow &= \sqrt{E+m} \begin{pmatrix}
+            -s \\
+            ce^{i\phi} \\
+            \frac{p}{E+m}s \\
+            -\frac{p}{E+m}ce^{i\phi} \\
+        \end{pmatrix}\\
+    \end{align*}
+
+    \begin{align*}
+        v_\uparrow &= \sqrt{E+m} \begin{pmatrix}
+            \frac{p}{E+m}s \\
+            -\frac{p}{E+m}ce^{i\phi} \\
+            -s \\
+            ce^{i\phi} \\
+        \end{pmatrix}\\
+        v_\downarrow &= \sqrt{E+m} \begin{pmatrix}
+            \frac{p}{E+m}c \\
+            \frac{p}{E+m}se^{i\phi} \\
+            c \\
+            se^{i\phi} \\
+        \end{pmatrix}\\
+    \end{align*}
+    Rel.Lim.: frac=1, $E+m=E$
+
+    In: $\theta=\phi=0$, out: $\theta=\phi=\pi$
+
+    Parity: $\hat{P}\psi = \gamma^0\psi$
+
+    Charge conj: $\hat{C}\psi = i\gamma^2\psi^*$
+\end{multicols}
+
+\todo[inline]{should we include incoming and outgoing ultra-relativistic helicity states?}
+
+\textbf{Parity Properties}
+$$\hat{P}u(m,0) = +u(m,0)$$
+$$\hat{P}v(m,0) = -v(m,0)$$
+$$\hat{P}u_\uparrow(p,\theta,\phi) = u_\downarrow(p,\pi-\theta,\pi+\phi)$$
+
+(not conserved in weak interatcions)
+

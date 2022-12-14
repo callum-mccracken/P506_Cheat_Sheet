@@ -8,7 +8,7 @@
 \usepackage{float}
 \usepackage{physics}
 \setlength {\marginparwidth }{2cm}
-\usepackage{todonotes}
+\usepackage[disable]{todonotes}
 \usepackage{siunitx}
 \usepackage{subfiles}
 \usepackage{hyperref}
@@ -29,410 +29,42 @@
 \newcommand{\0}{\mathcal{O}}
 
 \begin{document}
-\begin{multicols}{3}
-\textbf{Basics / Notation}
-
-Signature $(1, -1, -1, -1)$
-\begin{align*}
-    \gamma &= \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}\\
-    d' &= d/\gamma\\
-    E^2 &= \vec{p}^2c^2 + m^2c^4 \\
-    x^\mu &= (t, x, y, z) \\
-    x_\mu &= (t, -x, -y, -z) \\
-    p &= (E, -p_1, -p_2, -p_3) \\
-    p^2 &= p^\mu p_\mu = E^2 - \vec{p}^2 \\
-\end{align*}
-Don't fuck up boosts:
-\begin{align*}
-    x &= \gamma (x^* - vt) \\
-    t &= \gamma (t^* - vx^*) \\
-    x^* &= \gamma (x + vt) \\
-    t^* &= \gamma (t + vx) \\
-    p_x &= \gamma (p_x^* - vE^*) \\
-    E &= \gamma (E^* - vp_x^*) \\
-    p_x^* &= \gamma (p_x + vE) \\
-    E^* &= \gamma (E + vp_x) \\
-\end{align*}
-Rel. $K$: $K = E - mc^2$
-
-Mandelstam: $1+2 \to 3+4$
-\begin{align*}
-    s &= (p_1 + p_2)^2 \\
-    t &= (p_1 - p_3)^2 \\
-    u &= (p_1 - p_4)^2 \\
-\end{align*}
-
-\textbf{Conservation Laws}
-
-Conservation of energy, momentum, charge, spin, baryon number, lepton number, colour charge, charge conjugation $C\psi = i\gamma^2 \psi^\dagger$
-
-Lepton flavour conserved at $\gamma, Z$ but not $W$ vertices.
-
-Symm. $\to$ conserved:
-
-- transform under symm, Taylor expand, write as $\psi' = (1 + i\epsilon \hat{A})\psi$,$\implies$ $\hat{A}$ conserved
-
-- Translation $\leftrightarrow$ momentum
-
-- Flavour symm. in strong interaction
-
-\textbf{Spin Algebra Stuff}
-
-\begin{align*}
-    \sigma_x &= \begin{bmatrix}
-        0 & 1 \\
-        1 & 0 \\
-    \end{bmatrix}, \sigma_y = \begin{bmatrix}
-        0 & -i \\
-        i & 0 \\
-    \end{bmatrix},
-    \sigma_z = \begin{bmatrix}
-        1 & 0 \\
-        0 & -1 \\
-    \end{bmatrix} \\
-\end{align*}
-
-$$S_- = S_x - iS_y, S_+ = S_x + iS_y$$
-
-Isospin, $\hat{T} = \frac{1}{2}\sigma$, same algebra, $T_+d = u$
-
-$T_3u = \frac{1}{2}u, T_3d = -\frac{1}{2}d$
-
-$T_3\bar{u} = -\frac{1}{2}\bar{u}, T\bar{d} = \frac{1}{2}\bar{d}$
-
-$T_3s=0$
-
-$T^2 = \frac{4}{3}I$
-
-\begin{align*}
-    \lambda_1 &= \begin{bmatrix}
-        0 & 1 & 0 \\
-        1 & 0 & 0 \\
-        0 & 0 & 0 \\
-    \end{bmatrix}, \lambda_2 = \begin{bmatrix}
-        0 & -i & 0 \\
-        i & 0 & 0 \\
-        0 & 0 & 0 \\
-    \end{bmatrix}\\
-    \lambda_3 &= \begin{bmatrix}
-        1 & 0 & 0 \\
-        0 & -1 & 0 \\
-        0 & 0 & 0 \\
-    \end{bmatrix}, \lambda_4 = \begin{bmatrix}
-        0 & 0 & 1 \\
-        0 & 0 & 0 \\
-        1 & 0 & 0 \\
-    \end{bmatrix} \\
-    \lambda_5 &= \begin{bmatrix}
-        0 & 0 & -i \\
-        0 & 0 & 0 \\
-        i & 0 & 0 \\
-    \end{bmatrix}, \lambda_6 = \begin{bmatrix}
-        0 & 0 & 0 \\
-        0 & 0 & 1 \\
-        0 & 1 & 0 \\
-    \end{bmatrix} \\
-    \lambda_7 &= \begin{bmatrix}
-        0 & 0 & 0 \\
-        0 & 0 & -i \\
-        0 & i & 0 \\
-    \end{bmatrix}, \lambda_8 = \frac{1}{\sqrt{3}}\begin{bmatrix}
-        1 & 0 & 0 \\
-        0 & 1 & 0 \\
-        0 & 0 & -2 \\
-    \end{bmatrix} \\
-\end{align*}
-
-\textbf{Fermi's Golden Rule}
-
-\begin{align*}
-    \Gamma_{fi} &= 2\pi |T_{fi}|^2 \rho(E_i) \\
-\end{align*}
-
-Lifetime: $\tau = \frac{\hbar}{\Gamma}$
-
-Lor. Inv. $T$: $M$
-$$M_{fi}^{ab} = 4(E_aE_bE_cE_d)^{\frac{1}{2}}T_{fi}^{ab}$$
-
-If we have an $a \to 1 + 2$ decay,
-\begin{align*}
-    \Gamma_{fi} &= \frac{p^*}{32\pi^2m_a^2} \int |M_{fi}|^2 d\Omega \\
-\end{align*}
-
-\textbf{Cross Sections}
-
-For $1+2 \to 3+4$:
-
-\begin{align*}
-    \sigma &= \frac{1}{64\pi^2 s} \frac{p_f^*}{p_i^*} \int |M_{fi}|^2 d\Omega^*\\
-    \frac{d\sigma}{d\Omega^*} &= \frac{1}{64\pi^2 s} \frac{p_f^*}{p_i^*} |M_{fi}|^2
-\end{align*}
-
-For elastic $e^- p \to e^- p$ scattering:
-\begin{align*}
-    \frac{d\sigma}{d\Omega} &= \frac{1}{64\pi^2} \left(\frac{E_3}{m_p E_1}\right)^2 |M_{fi}|^2 \\
-\end{align*}
-
-($E_3 = E_3(\theta)$)
-
-\textbf{Relativistic QM}
-
-Klein-Gordon: $(\d^\mu\d_\mu + m^2)\psi = 0$
-
-Dirac: $(i\gamma^\mu \d_\mu - m)\psi = 0$
-
-$\gamma^\mu\gamma^\nu + \gamma^\nu\gamma^\mu = 2g^{\mu\nu}$
-
-\begin{align*}
-    \gamma^0 = \beta &= \begin{pmatrix}
-        I & 0 \\
-        0 & -I \\
-    \end{pmatrix} \\
-    \gamma^i = \beta\alpha_i &= \begin{pmatrix}
-        0 & \sigma_k \\
-        -\sigma_k & 0 \\
-    \end{pmatrix} \\
-\end{align*}
-
-Adjoints:
-\begin{align*}
-    \bar{\psi} &= \psi^\dagger \gamma^0 \\
-    &= (\psi_0^*, \psi_1^*, -\psi_2^*, -\psi_3^*) \\
-\end{align*}
-
-Positive $E$ solutions:
-\begin{align*}
-    u_1(p) &= \sqrt{E+m}\begin{pmatrix}
-        1 \\
-        0 \\
-        \frac{p_z}{E+m}\\
-        \frac{p_x + ip_y}{E+m} \\
-    \end{pmatrix}\\
-    u_2(p) &= \sqrt{E+m}\begin{pmatrix}
-        0 \\
-        1 \\
-        \frac{p_x - ip_y}{E+m} \\
-        \frac{-p_z}{E+m}\\
-    \end{pmatrix}\\
-\end{align*}
-
-Negative $E$ solutions: antiparticles
-\begin{align*}
-    v_1(p) &= \sqrt{E+m}\begin{pmatrix}
-        \frac{p_x - ip_y}{E+m} \\
-        \frac{-p_z}{E+m}\\
-        0 \\
-        1 \\
-    \end{pmatrix}\\
-    v_2(p) &= \sqrt{E+m}\begin{pmatrix}
-        \frac{p_z}{E+m}\\
-        \frac{p_x + ip_y}{E+m} \\
-        1 \\
-        0 \\
-    \end{pmatrix}\\
-\end{align*}
-Current:
-\begin{align*}
-    j^\mu &= \psi^\dagger\gamma^0\gamma^\mu\psi = \bar{\psi}\gamma^\mu\psi
-\end{align*}
-
-\textbf{Helicity}
-
-\begin{align*}
-    h &= \frac{\mathbf{S} \cdot \mathbf{p}}{p} = \begin{pmatrix}
-        \sigma \cdot \hat{p} & 0 \\
-        0 & \sigma \cdot \hat{p} \\
-    \end{pmatrix}\\
-    s &= \sin(\theta/2), c=\cos(\theta/2)\\
-    u^\uparrow &= \sqrt{E+m} \begin{pmatrix}
-        c \\
-        se^{i\phi} \\
-        \frac{p}{E+m}c \\
-        \frac{p}{E+m}se^{i\phi} \\
-    \end{pmatrix}\\
-    u^\downarrow &= \sqrt{E+m} \begin{pmatrix}
-        -s \\
-        ce^{i\phi} \\
-        \frac{p}{E+m}s \\
-        -\frac{p}{E+m}ce^{i\phi} \\
-    \end{pmatrix}\\
-    v^\uparrow &= \sqrt{E+m} \begin{pmatrix}
-        \frac{p}{E+m}s \\
-        -\frac{p}{E+m}ce^{i\phi} \\
-        -s \\
-        ce^{i\phi} \\
-    \end{pmatrix}\\
-    u^\downarrow &= \sqrt{E+m} \begin{pmatrix}
-        \frac{p}{E+m}c \\
-        \frac{p}{E+m}se^{i\phi} \\
-        c \\
-        se^{i\phi} \\
-    \end{pmatrix}\\
-\end{align*}
-Rel.Lim.: fraction=1, $E+m=E$
-
-\newpage
-\textbf{Bethe-Bloch}
-
-\begin{align*}
-    \frac{dE}{dx} \approx -4\pi\hbar^2 c^2 \alpha^2 \frac{nZ}{m_2v^2}\left(\ln\left(\frac{2\beta^2\gamma^2c^2m_e}{I_e}\right) - \beta^2\right)
-\end{align*}
-
-\textbf{Parity}
-
-$$\hat{P} = \gamma^0$$
-$$\hat{P}u(m,0) = +u(m,0)$$
-$$\hat{P}v(m,0) = -v(m,0)$$
-$$\hat{P}u_\uparrow(p,\theta,\phi) = u_\downarrow(p,\pi-\theta,\pi+\phi)$$
-
-(not conserved in weak interatcions)
-
-\textbf{Chirality}
-
-\begin{align*}
-    \gamma^5 &= i\gamma^0\gamma^1\gamma^2\gamma^3 = \begin{pmatrix}
-        0 & I\\
-        I & 0 \\
-    \end{pmatrix}\\
-    P_R &= \frac{1}{2}(1 + \gamma^5), P_R u_R = u_R \\
-    P_L &= \frac{1}{2}(1 - \gamma^5), P_L u_L = u_L \\
-    (\gamma^5)^2 &= 1, \gamma^5\gamma^\mu = \gamma^\mu\gamma^5
-\end{align*}
-
-In rel. limit (but not generally!),
-$$u_R = u_\uparrow, u_L = u_\downarrow, v_R = v_\uparrow, v_L = v_\downarrow$$
-I.e. $u_R = \lim_{rel} u_\uparrow$
-
-For massless particles, helicity = chirality
-
-\textbf{Matrix Elements}
-
-\begin{align*}
-    \expval{|M_{fi}|^2} &= \frac{1}{4} \sum_{\text{spins}} |M|^2 \\
-    e^+e^- \to \mu^+\mu^- \\
-    \expval{|M_{fi}|^2} &= 2e^4 \left(\frac{t^2+u^2}{s^2}\right) \\
-    e^- q \to \mu^- q \\
-    \expval{|M_{fi}|^2} &= 2Q_q^2 e^4 \left(\frac{s^2+u^2}{t^2}\right) \\
-\end{align*}
-
-\textbf{Deep Inelastic Scattering}
-Rutherford: non-rel. $e^-$, no proton recoil
-\begin{align*}
-    \expval{|M_{fi}|^2} &= \frac{m_p^2 m_e^2 e^4}{p^4 \sin^4(\theta/2)} \\
-    \frac{d\sigma}{d\Omega} &= \frac{\alpha^2}{16 E_K^2 \sin^4(\theta/2)} \\
-\end{align*}
-Mott: rel. $e^-$, no proton recoil
-\begin{align*}
-    \expval{|M_{fi}|^2} &= \frac{m_p^2 e^4}{E^2 \sin^4(\theta/2)}\cos^2(\theta/2) \\
-    \frac{d\sigma}{d\Omega} &= \frac{\alpha^2}{4 E^2 \sin^4(\theta/2)}\cos^2(\theta/2) \\
-\end{align*}
-Form factors: $p$ finite size, some recoil
-\begin{align*}
-    M_{fi} &= M_{fi}^{pt}F(q^2) \\
-    F(q^2) &= \int \rho(r)e^{iq\cdot r} d^3r \\
-    \frac{d\sigma}{d\Omega} &\to \left(\frac{d\sigma}{d\Omega}\right)_{\text{Mott}}|F(q^2)|^2 \\
-    \frac{d\sigma}{d\Omega} &= \frac{\alpha^2}{4E_1^2\sin^4(\theta/2)}\frac{E_3}{E_1}\\
-    &\left(\frac{G_e^2 + \tau G_M^2}{1+\tau} + 2\tau G_M^2 \tan^2 \frac{\theta}{2}\right) \\
-\end{align*}
-(last one = Rosenbluth)
-
-\begin{align*}
-    \expval{R^2} &= -6 \left[\frac{dF(q^2)}{dq^2}\right]_{q^2=0} \\
-\end{align*}
-
-For high $Q^2$ elastics
-\begin{align*}
-    \frac{d\sigma}{d\Omega}_\text{elastic} &\propto \frac{1}{Q^6}\frac{d\sigma}{d\Omega}_{\text{Mott}} \\
-\end{align*}
-
-Bjorken $x$: fraction of momentum transferred to struck quark
-$$x = \frac{Q^2}{2p_2 \cdot q}$$
-
-Elasticity (fract. energy loss): $y = \frac{p_2 \cdot q}{p_2 \cdot p_1}$
-
-$$v = \frac{p_2 \cdot q}{m_p}$$
-
-Any 2 of 4 variables are indep, $x, y, v, Q^2$
-
-Deep inelastic scattering $Q^2 >> m_p^2 y^2$:
-\begin{align*}
-    \frac{d^2\sigma}{dx dQ^2} &\approx \frac{4\pi \alpha^2}{Q^4}\left[(1-y)\frac{F_2(x,Q^2)}{x} + y^2 F_1(x,Q^2)\right] \\
-    Q^2 &= 4E_1E_3\sin^2\frac{\theta}{2}\\
-    x &= \frac{Q^2}{2m_p(E_1-E_3)}\\
-    y &= 1 - \frac{E_3}{E_1}\\
-\end{align*}
-
-$F_i$ = structure functions.
-
-Bjorken scaling: $F_i \approx$ flat over $Q^2$ and $F_2(x)=2xF_1(x)$.
-
-Can rewrite $\sigma$ in terms of $q^2$:
-\begin{align*}
-    \frac{d\sigma}{dq^2} &= \frac{2\pi\alpha^2 Q_q^2}{q^4}\left[1 + \left(1 + \frac{q^2}{s}\right)^2\right]
-\end{align*}
-
-\textbf{Feynman Rules}
-
-$-iM = \prod$[terms]
-
-- Put adjoints first
-
-- Put polarizations out front
-
-- Same index on all things involved in a vertex
-
-\textbf{QED}
-
-In lepton: $u(p)$
-
-Out lepton: $\bar{u}(p)$
-
-In anti-lepton: $\bar{v}(p)$
-
-Out anti-lepton: $v(p)$
-
-In photon: $\epsilon_\mu(p)$ 
-
-Out photon: $\epsilon_\mu(p)^*$ 
-
-Lepton prop: $\frac{i\gamma^\mu q_\mu + m}{q^2 - m^2}$
-
-Photon prop: $\frac{-ig_{\mu\nu}}{q^2}$
-
-\textbf{QCD}
-
-Quarks: same as QED leptons
-
-Gluons: same as QED photons
-
-Gluon prop: $-\frac{ig_{\mu\nu}}{q^2}\delta^{ab}$
-
-Vertices (qqg, ggg, gggg): $-ig_s \frac{1}{2}\lambda^a_{ji}\gamma^\mu$
-
-$$\psi = \psi_{\text{flavor}}\chi_{\text{spin}}\xi_{\text{colour}}\eta_{\text{space}}$$
-
-Colour confinement: colour neutral final states
-
-Colour factors $C(ik \to jl) = \frac{1}{4}\sum_{a=1}^8 \lambda^{a}_{ji}\lambda^a_{lk}$ (r=1, g=2, b=3). Remember colour conservation when applicable!
-
-\begin{align*}
-    \expval{|C|^2} &= \frac{1}{9}\sum_{ijkl=1}^3 |C(ij\to kl)|^2 \\
-\end{align*}
-
-$M_{QCD} = C M_{QED}$ in some cases
-
-\textbf{Weak}
-
-Fermions: same as before
-
-W prop: $-\frac{i[g_{\mu\nu} - q_\mu q_\nu / m_W^2]}{q^2 - m_W^2}$
-
-If $q^2$ small: $\frac{ig_{\mu\nu}}{m_W^2}$
-
-Vertex: $\frac{-ig_w}{\sqrt{2}}\frac{1}{2}\gamma^\mu (1 - \gamma^5)$
+\begin{multicols}{2}
 
+\subfile{ch1.tex}
+
+\subfile{ch2.tex}
+
+\subfile{ch3.tex}
+
+\subfile{ch4.tex}
+
+\subfile{ch5.tex}
+
+\subfile{ch6.tex}
+
+\subfile{ch7.tex}
+
+\subfile{ch8.tex}
+
+\subfile{ch9.tex}
+
+\subfile{ch10.tex}
+
+\subfile{ch11.tex}
+
+\subfile{ch12.tex}
+
+\subfile{ch13.tex}
+
+\subfile{ch14.tex}
+
+\subfile{ch15.tex}
+
+\subfile{ch16.tex}
+
+\subfile{ch17.tex}
 
 \end{multicols}
-
 
 \end{document}

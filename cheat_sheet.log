@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2022.10.20)  15 NOV 2022 08:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2022.10.20)  13 DEC 2022 00:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/callum/Documents/Classes/PHYS 506/PHYS-506-A5/cheat_sheet.tex"
-(/home/callum/Documents/Classes/PHYS 506/PHYS-506-A5/cheat_sheet.tex
+**"/home/callum/Documents/Classes/PHYS 506/Cheat_Sheet/cheat_sheet.tex"
+(/home/callum/Documents/Classes/PHYS 506/Cheat_Sheet/cheat_sheet.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-07-15> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -737,58 +737,252 @@ Package hyperref Info: Link coloring ON on input line 31.
 \@outlinefile=\write4
 \openout4 = `cheat_sheet.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 35.
+ (./ch1.tex
+<images/quark_info.png, id=7, 1008.76875pt x 322.20375pt>
+File: images/quark_info.png Graphic file (type png)
+<use images/quark_info.png>
+Package pdftex.def Info: images/quark_info.png  used on input line 3.
+(pdftex.def)             Requested size: 287.92113pt x 91.96176pt.
+<images/which_forces_for_which_particles.png, id=9, 1267.73625pt x 259.97125pt>
+File: images/which_forces_for_which_particles.png Graphic file (type png)
+<use images/which_forces_for_which_particles.png>
+Package pdftex.def Info: images/which_forces_for_which_particles.png  used on input line 4.
+(pdftex.def)             Requested size: 287.92113pt x 59.04239pt.
+<images/boson_info.png, id=10, 1016.79875pt x 223.83624pt>
+File: images/boson_info.png Graphic file (type png)
+<use images/boson_info.png>
+Package pdftex.def Info: images/boson_info.png  used on input line 5.
+(pdftex.def)             Requested size: 287.92113pt x 63.3807pt.
+<images/interaction_basics.png, id=11, 1009.7725pt x 339.2675pt>
+File: images/interaction_basics.png Graphic file (type png)
+<use images/interaction_basics.png>
+Package pdftex.def Info: images/interaction_basics.png  used on input line 6.
+(pdftex.def)             Requested size: 287.92113pt x 96.73883pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 9.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 35.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 9.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 35.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 9.
  (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-Overfull \hbox (0.8669pt too wide) detected at line 93
-[]
- []
+<images/particle_tracks.png, id=12, 1009.7725pt x 339.2675pt>
+File: images/particle_tracks.png Graphic file (type png)
+<use images/particle_tracks.png>
+Package pdftex.def Info: images/particle_tracks.png  used on input line 21.
+(pdftex.def)             Requested size: 287.92113pt x 96.73883pt.
+) (./ch2.tex
+<images/natural_units.png, id=13, 1011.78pt x 254.9525pt>
+File: images/natural_units.png Graphic file (type png)
+<use images/natural_units.png>
+Package pdftex.def Info: images/natural_units.png  used on input line 4.
+(pdftex.def)             Requested size: 287.92113pt x 72.55328pt.
+) (./ch3.tex) (./ch4.tex [1
 
-[1
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/quark_info.png> <./images/which_forces_for_which_particles.png> <./images/boson_info.png> <./images/interaction_basics.png> <./images/particle_tracks.png> <./images/natural_units.png>]) (./ch5.tex) (./ch6.tex) (./ch7.tex) (./ch8.tex
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.19 $
+      \frac{d^2\sigma}{dx dQ^2} \approx \frac{4\pi \alpha^2}{Q^4}\left[(1-y ... [2]) (./ch9.tex) (./ch10.tex
+<images/colour_factors.png, id=42, 831.105pt x 561.09625pt>
+File: images/colour_factors.png Graphic file (type png)
+<use images/colour_factors.png>
+Package pdftex.def Info: images/colour_factors.png  used on input line 79.
+(pdftex.def)             Requested size: 287.92113pt x 194.38321pt.
+) (./ch11.tex
+<images/V-A.png, id=43, 633.36626pt x 180.675pt>
+File: images/V-A.png Graphic file (type png)
+<use images/V-A.png>
+Package pdftex.def Info: images/V-A.png  used on input line 8.
+(pdftex.def)             Requested size: 287.92113pt x 82.13281pt.
+<images/bilinear_covariant_currents.png, id=44, 561.09625pt x 235.88126pt>
+File: images/bilinear_covariant_currents.png Graphic file (type png)
+<use images/bilinear_covariant_currents.png>
+Package pdftex.def Info: images/bilinear_covariant_currents.png  used on input line 14.
+(pdftex.def)             Requested size: 287.92113pt x 121.03929pt.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (28.28091pt too wide) detected at line 279
-[]
- []
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.15 \end{center}
+                  [3 <./images/colour_factors.png>]) (./ch12.tex
+<images/nu_q_scattering.png, id=49, 750.805pt x 484.81125pt>
+File: images/nu_q_scattering.png Graphic file (type png)
+<use images/nu_q_scattering.png>
+Package pdftex.def Info: images/nu_q_scattering.png  used on input line 12.
+(pdftex.def)             Requested size: 287.92113pt x 185.91684pt.
+) (./ch13.tex
+<images/neutrino_flavour.png, id=50, 397.485pt x 134.5025pt>
+File: images/neutrino_flavour.png Graphic file (type png)
+<use images/neutrino_flavour.png>
+Package pdftex.def Info: images/neutrino_flavour.png  used on input line 5.
+(pdftex.def)             Requested size: 86.37721pt x 29.22737pt.
+<images/neutrino_production.png, id=51, 824.07875pt x 684.5575pt>
+File: images/neutrino_production.png Graphic file (type png)
+<use images/neutrino_production.png>
+Package pdftex.def Info: images/neutrino_production.png  used on input line 13.
+(pdftex.def)             Requested size: 287.92113pt x 239.17044pt.
+<images/neutrino_oscillations.png, id=52, 644.4075pt x 193.72375pt>
+File: images/neutrino_oscillations.png Graphic file (type png)
+<use images/neutrino_oscillations.png>
+Package pdftex.def Info: images/neutrino_oscillations.png  used on input line 25.
+(pdftex.def)             Requested size: 287.92113pt x 86.55707pt.
+<images/pmns.png, id=53, 1458.44875pt x 193.72375pt>
+File: images/pmns.png Graphic file (type png)
+<use images/pmns.png>
+Package pdftex.def Info: images/pmns.png  used on input line 29.
+(pdftex.def)             Requested size: 287.92113pt x 38.24153pt.
+<images/pmns_example.png, id=54, 946.53625pt x 384.43625pt>
+File: images/pmns_example.png Graphic file (type png)
+<use images/pmns_example.png>
+Package pdftex.def Info: images/pmns_example.png  used on input line 33.
+(pdftex.def)             Requested size: 287.92113pt x 116.93904pt.
 
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.34 \end{center}
+                  [4 <./images/V-A.png> <./images/bilinear_covariant_currents.png> <./images/nu_q_scattering.png> <./images/neutrino_flavour.png> <./images/neutrino_production.png>]
+<images/pmns_parametrization.png, id=63, 732.7375pt x 102.3825pt>
+File: images/pmns_parametrization.png Graphic file (type png)
+<use images/pmns_parametrization.png>
+Package pdftex.def Info: images/pmns_parametrization.png  used on input line 41.
+(pdftex.def)             Requested size: 287.92113pt x 40.23051pt.
+) (./ch14.tex
+<images/ckm_vertices.png, id=64, 714.67pt x 482.80376pt>
+File: images/ckm_vertices.png Graphic file (type png)
+<use images/ckm_vertices.png>
+Package pdftex.def Info: images/ckm_vertices.png  used on input line 8.
+(pdftex.def)             Requested size: 287.92113pt x 194.51044pt.
+<images/ckm_parametrization.png, id=65, 777.90625pt x 100.375pt>
+File: images/ckm_parametrization.png Graphic file (type png)
+<use images/ckm_parametrization.png>
+Package pdftex.def Info: images/ckm_parametrization.png  used on input line 14.
+(pdftex.def)             Requested size: 287.92113pt x 37.15195pt.
+<images/ckm_wolfenstein.png, id=66, 656.4525pt x 113.42375pt>
+File: images/ckm_wolfenstein.png Graphic file (type png)
+<use images/ckm_wolfenstein.png>
+Package pdftex.def Info: images/ckm_wolfenstein.png  used on input line 15.
+(pdftex.def)             Requested size: 287.92113pt x 49.74736pt.
+<images/kshort_klong.png, id=67, 737.75626pt x 528.97626pt>
+File: images/kshort_klong.png Graphic file (type png)
+<use images/kshort_klong.png>
+Package pdftex.def Info: images/kshort_klong.png  used on input line 16.
+(pdftex.def)             Requested size: 287.92113pt x 206.43712pt.
+<images/kaon_eigenstates.png, id=68, 509.905pt x 231.86626pt>
+File: images/kaon_eigenstates.png Graphic file (type png)
+<use images/kaon_eigenstates.png>
+Package pdftex.def Info: images/kaon_eigenstates.png  used on input line 20.
+(pdftex.def)             Requested size: 287.92113pt x 130.93037pt.
+<images/BH_BL.png, id=69, 645.41125pt x 52.195pt>
+File: images/BH_BL.png Graphic file (type png)
+<use images/BH_BL.png>
+Package pdftex.def Info: images/BH_BL.png  used on input line 29.
+(pdftex.def)             Requested size: 287.92113pt x 23.28444pt.
+) (./ch15.tex
+<images/w_decays.png, id=70, 724.7075pt x 481.8pt>
+File: images/w_decays.png Graphic file (type png)
+<use images/w_decays.png>
+Package pdftex.def Info: images/w_decays.png  used on input line 6.
+(pdftex.def)             Requested size: 287.92113pt x 191.41533pt.
 
-Overfull \hbox (29.36037pt too wide) detected at line 363
-[]
- []
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.8     $
+         \Gamma(W^- \to e^- \bar{\nu}_e) = \frac{g_W^2 m_W}{48\pi}$ [5 <./images/neutrino_oscillations.png> <./images/pmns.png> <./images/pmns_example.png> <./images/pmns_parametrization.png> <./images/ckm_vertices.png> <./images/ckm_parametrization.png> <./images/ckm_wolfenstein.png> <./images/kshort_klong.png> <./images/kaon_eigenstates.png> <./images/BH_BL.png>]
+<images/w_quark_decays.png, id=84, 709.65125pt x 310.15875pt>
+File: images/w_quark_decays.png Graphic file (type png)
+<use images/w_quark_decays.png>
+Package pdftex.def Info: images/w_quark_decays.png  used on input line 12.
+(pdftex.def)             Requested size: 287.92113pt x 125.84076pt.
+<images/ew_unification.png, id=85, 711.65875pt x 268.00125pt>
+File: images/ew_unification.png Graphic file (type png)
+<use images/ew_unification.png>
+Package pdftex.def Info: images/ew_unification.png  used on input line 21.
+(pdftex.def)             Requested size: 287.92113pt x 108.4254pt.
+<images/z_decays.png, id=86, 736.7525pt x 476.78125pt>
+File: images/z_decays.png Graphic file (type png)
+<use images/z_decays.png>
+Package pdftex.def Info: images/z_decays.png  used on input line 43.
+(pdftex.def)             Requested size: 287.92113pt x 186.32224pt.
+<images/neutral_current_feynrules.png, id=87, 708.6475pt x 416.55624pt>
+File: images/neutral_current_feynrules.png Graphic file (type png)
+<use images/neutral_current_feynrules.png>
+Package pdftex.def Info: images/neutral_current_feynrules.png  used on input line 44.
+(pdftex.def)             Requested size: 287.92113pt x 169.24461pt.
+<images/z_coupling_params.png, id=88, 622.325pt x 236.885pt>
+File: images/z_coupling_params.png Graphic file (type png)
+<use images/z_coupling_params.png>
+Package pdftex.def Info: images/z_coupling_params.png  used on input line 45.
+(pdftex.def)             Requested size: 287.92113pt x 109.59735pt.
+) (./ch16.tex
+<images/z_resonance.png, id=89, 725.71124pt x 472.76625pt>
+File: images/z_resonance.png Graphic file (type png)
+<use images/z_resonance.png>
+Package pdftex.def Info: images/z_resonance.png  used on input line 11.
+(pdftex.def)             Requested size: 287.92113pt x 187.5666pt.
+) (./ch17.tex
+<images/higgs_intro.png, id=90, 725.71124pt x 472.76625pt>
+File: images/higgs_intro.png Graphic file (type png)
+<use images/higgs_intro.png>
+Package pdftex.def Info: images/higgs_intro.png  used on input line 4.
+(pdftex.def)             Requested size: 287.92113pt x 187.5666pt.
+<images/higgs_intro_2.png, id=91, 725.71124pt x 472.76625pt>
+File: images/higgs_intro_2.png Graphic file (type png)
+<use images/higgs_intro_2.png>
+Package pdftex.def Info: images/higgs_intro_2.png  used on input line 5.
+(pdftex.def)             Requested size: 287.92113pt x 187.5666pt.
+<images/higgs_3.png, id=92, 724.7075pt x 308.15125pt>
+File: images/higgs_3.png Graphic file (type png)
+<use images/higgs_3.png>
+Package pdftex.def Info: images/higgs_3.png  used on input line 6.
+(pdftex.def)             Requested size: 287.92113pt x 122.42606pt.
+<images/higgs_mechanism_summary.png, id=93, 691.58376pt x 449.68pt>
+File: images/higgs_mechanism_summary.png Graphic file (type png)
+<use images/higgs_mechanism_summary.png>
+Package pdftex.def Info: images/higgs_mechanism_summary.png  used on input line 7.
+(pdftex.def)             Requested size: 287.92113pt x 187.21066pt.
 
-
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.8 \end{center}
+                 [6 <./images/w_decays.png> <./images/w_quark_decays.png> <./images/ew_unification.png> <./images/z_decays.png> <./images/neutral_current_feynrules.png> <./images/z_coupling_params.png> <./images/z_resonance.png>]
+<images/open_questions.png, id=104, 691.58376pt x 449.68pt>
+File: images/open_questions.png Graphic file (type png)
+<use images/open_questions.png>
+Package pdftex.def Info: images/open_questions.png  used on input line 16.
+(pdftex.def)             Requested size: 287.92113pt x 187.21066pt.
+) 
 AED: lastpage setting LastPage
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.438 \end{document}
-                     [2] (./cheat_sheet.aux)
+l.70 \end{document}
+                    [7 <./images/higgs_intro.png> <./images/higgs_intro_2.png> <./images/higgs_3.png> <./images/higgs_mechanism_summary.png> <./images/open_questions.png>] (./cheat_sheet.aux)
 Package rerunfilecheck Info: File `cheat_sheet.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 26468 strings out of 478023
- 530782 string characters out of 5841207
- 875675 words of memory out of 5000000
- 44496 multiletter control sequences out of 15000+600000
+ 26782 strings out of 478023
+ 538197 string characters out of 5841207
+ 835461 words of memory out of 5000000
+ 44723 multiletter control sequences out of 15000+600000
  472380 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 115i,15n,118p,495b,982s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on cheat_sheet.pdf (2 pages, 159991 bytes).
+ 115i,16n,118p,495b,1095s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on cheat_sheet.pdf (7 pages, 1801472 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
+ 175 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 183 words of extra memory for PDF output out of 10000 (max. 10000000)
 
